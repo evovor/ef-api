@@ -1,0 +1,17 @@
+{
+    "id": "LongSpeech",
+    "text_file": "hello_zh.txt",
+	"face_driver_file": "hello_zh.csv",
+	"audio_file": "hello_zh.wav",
+	"frame_rate": 25,
+	"interrupt": false,
+	"body_driver": "sku",
+	"animations": [
+		{
+			"timestamp": 0,
+			"body_anim_sku": "FA_Talk",
+			"loop": false,
+			"blend": 0.5
+		}
+	]
+}

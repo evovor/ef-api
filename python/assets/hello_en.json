@@ -1,0 +1,17 @@
+{
+    "id": "LongSpeech",
+    "text_file": "hello_en.txt",
+	"face_driver_file": "hello_en.csv",
+	"audio_file": "hello_en.wav",
+	"frame_rate": 25,
+	"interrupt": true,
+	"body_driver": "emote",
+	"animations": [
+		{
+			"timestamp": 0.0,
+			"body_anim_sku": "Hello",
+			"loop": false,
+			"blend": 0.5
+		}
+	]
+}
