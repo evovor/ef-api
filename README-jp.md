@@ -4,6 +4,8 @@
 
 元々は内部向けに設計された API であり、現在は "TCP ソケット" によって実装されています。ただし、今後のリリースで "HTTP(s) ベースへの移行" および "詳細な API ドキュメントの公開" を予定しています。
 
+<img src="docs/ef_community_ubuntu.jpg" alt="Ubuntu" style="width: 500px;"><img src="docs/ef_community_windows.jpg" alt="Windows" style="width: 500px;">
+
 ## 前提条件
 
 ### 1. EFデジタルヒューマンソフトウェア（コミュニティ版）をダウンロード  

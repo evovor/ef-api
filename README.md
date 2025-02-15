@@ -4,6 +4,8 @@ This repository provides sample source code demonstrating the "EF API", which al
 
 Originally designed for internal use, the APIs are currently implemented over "TCP sockets". However, we plan to migrate to an "HTTP(s)" implementation and publish comprehensive API documentation in future releases.
 
+<img src="docs/ef_community_ubuntu.jpg" alt="Ubuntu" style="width: 500px;"><img src="docs/ef_community_windows.jpg" alt="Windows" style="width: 500px;">
+
 ## Prerequisites
 
 ### 1. Download the EF Digital Humans Software (Community Edition)

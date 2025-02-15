@@ -4,6 +4,8 @@
 
 该 API 最初用于内部开发，目前基于 "TCP Socket" 实现。不过，我们计划迁移到 "HTTP(s)"，并在未来版本中发布完整的 API 文档。
 
+<img src="docs/ef_community_ubuntu.jpg" alt="Ubuntu" style="width: 500px;"><img src="docs/ef_community_windows.jpg" alt="Windows" style="width: 500px;">
+
 ## 环境准备
 
 ### 1. 下载 EF数字人 软件（社区版）  
