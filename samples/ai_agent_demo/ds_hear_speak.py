@@ -3,10 +3,15 @@
 import speech_recognition as sr
 import requests
 import re
+
+# Add the ../../python directory to sys.path for importing evolink_test
+import os
 import sys
+module_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../python"))
+if module_path not in sys.path:
+    sys.path.append(module_path)
 
 from evolink_test import test_evolink_cmd
-from speak_base import evolink_cmd_speak
 
 # DeepSeek API endpoint
 DEEPSEEK_API_URL = "http://192.168.0.107:11434/v1/chat/completions"
