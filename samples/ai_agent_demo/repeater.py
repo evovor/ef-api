@@ -90,7 +90,7 @@ def send_chunk_to_evolink(audio_data):
         "binary_content_length": audio_data_length,
         "content": {
             "id": "streamChunk",
-            "text": "",
+            "text": "Hello! I am repeating what I heard from the microphone!",
             "face_driver": "arkit",
             "body_driver": "emote",
             "face_data_length": 0,
@@ -98,7 +98,14 @@ def send_chunk_to_evolink(audio_data):
             "audio_data_length": audio_data_length,
             "interrupt": False,  # set True if you want each chunk to interrupt previous
             "frame_rate": 25,
-            "animations": []
+            'animations': [
+                {
+                    "timestamp": 0.0,
+                    "body_anim_sku": "Talk",
+                    "loop": False,
+                    "blend": 0.5
+                }
+            ]
         }
     }
 
